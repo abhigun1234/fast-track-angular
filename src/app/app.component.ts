@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'mypro';
+   change="hello"
+   showDemo(){
+     console.log("hello")
+     this.change="bye"
+   }
 }
